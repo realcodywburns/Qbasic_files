@@ -1,0 +1,250 @@
+REM diplomacy
+RANDOMIZE TIMER
+CLS
+SCREEN 2
+PRINT ""; CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); "                                                        "; CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                            "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); ""
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                            "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                            "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                            "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                          "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³                                             ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³   __                                 __   ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³   \|/                                 \|/   ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³  _(-)_             DIPLOMACY         _(-)_  ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); ""
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "     (.)(/ : \)                             (/ : \)(.)      "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "     [Ä]³\ÄÄÄ/³                             ³\ÄÄÄ/³[-]      "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³)//   \/                             \/   \\(³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³  \   /                               \   /  ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³  ³ | ³                               ³ | ³  ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³  ³ | ³                               ³ | ³  ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); ""
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³  ³ | ³                               ³ | ³  ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "      ³  /_/_\                               /_\_\  ³       "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                            "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT "  "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176); "                                                            "; CHR$(176); CHR$(177); CHR$(178); CHR$(219); CHR$(178); CHR$(177); CHR$(176)
+PRINT ""; CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); "                                                        "; CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219)
+SLEEP 2
+0 CLS
+PRINT
+PRINT
+PRINT
+PRINT
+INPUT " How many people are playing(1-7)"; players
+IF players = 1 THEN AI = 0: GOTO 1
+IF players = 2 THEN AI = 1: GOTO 1
+IF players = 3 THEN AI = 2: GOTO 1
+IF players = 4 THEN AI = 3: GOTO 1
+IF players = 5 THEN AI = 4: GOTO 1
+IF players = 6 THEN AI = 5: GOTO 1
+IF players = 7 THEN AI = 6: GOTO 1
+GOTO 0
+1 PRINT
+INPUT " Player 1 what country do you want to be"; play1$
+IF play1$ = "ITALY" THEN GOTO 2
+IF play1$ = "FRANCE" THEN GOTO 2
+IF play1$ = "ENGLAND" THEN GOTO 2
+IF play1$ = "GERMANY" THEN GOTO 2
+IF play1$ = "RUSSIA" THEN GOTO 2
+IF play1$ = "TURKEY" THEN GOTO 2
+IF play1$ = "AUSTRIA-HUNGARY" THEN GOTO 1
+GOTO 1
+2 IF AI = 0 THEN GOTO 10
+PRINT
+INPUT " Player 2 what country do you want to be"; PLAY2$
+IF PLAY2$ = "ITALY" THEN GOTO 3
+IF PLAY2$ = "FRANCE" THEN GOTO 3
+IF PLAY2$ = "ENGLAND" THEN GOTO 3
+IF PLAY2$ = "GERMANY" THEN GOTO 3
+IF PLAY2$ = "RUSSIA" THEN GOTO 3
+IF PLAY2$ = "TURKEY" THEN GOTO 3
+IF PLAY2$ = "AUSTRIA-HUNGARY" THEN GOTO 2
+GOTO 2
+3 IF PLAY7$ = play1$ THEN GOTO 2
+IF AI = 1 THEN GOTO 10
+PRINT
+INPUT " Player 3 what country do you want to be"; PLAY3$
+IF PLAY3$ = "ITALY" THEN GOTO 4
+IF PLAY3$ = "FRANCE" THEN GOTO 4
+IF PLAY3$ = "ENGLAND" THEN GOTO 4
+IF PLAY3$ = "GERMANY" THEN GOTO 4
+IF PLAY3$ = "RUSSIA" THEN GOTO 4
+IF PLAY3$ = "TURKEY" THEN GOTO 4
+IF PLAY3$ = "AUSTRIA-HUNGARY" THEN GOTO 3
+GOTO 3
+4 IF PLAY7$ = play1$ THEN GOTO 3
+IF PLAY3$ = PLAY2$ THEN GOTO 3
+IF AI = 2 THEN GOTO 10
+PRINT
+INPUT " Player 4 what country do you want to be"; PLAY4$
+IF PLAY4$ = "ITALY" THEN GOTO 5
+IF PLAY4$ = "FRANCE" THEN GOTO 5
+IF PLAY4$ = "ENGLAND" THEN GOTO 5
+IF PLAY4$ = "GERMANY" THEN GOTO 5
+IF PLAY4$ = "RUSSIA" THEN GOTO 5
+IF PLAY4$ = "TURKEY" THEN GOTO 5
+IF PLAY4$ = "AUSTRIA-HUNGARY" THEN GOTO 5
+GOTO 4
+5 IF PLAY4$ = play1$ THEN GOTO 4
+IF PLAY4$ = PLAY2$ THEN GOTO 4
+IF PLAY4$ = PLAY3$ THEN GOTO 4
+IF AI = 3 THEN GOTO 10
+PRINT
+INPUT " Player 5 what country do you want to be"; PLAY5$
+IF PLAY5$ = "ITALY" THEN GOTO 6
+IF PLAY5$ = "FRANCE" THEN GOTO 6
+IF PLAY5$ = "ENGLAND" THEN GOTO 6
+IF PLAY5$ = "GERMANY" THEN GOTO 6
+IF PLAY5$ = "RUSSIA" THEN GOTO 6
+IF PLAY5$ = "TURKEY" THEN GOTO 6
+IF PLAY5$ = "AUSTRIA-HUNGARY" THEN GOTO 6
+GOTO 5
+6 IF PLAY5$ = play1$ THEN GOTO 5
+IF PLAY5$ = PLAY2$ THEN GOTO 5
+IF PLAY5$ = PLAY3$ THEN GOTO 5
+IF PLAY5$ = PLAY4$ THEN GOTO 5
+IF AI = 4 THEN GOTO 10
+PRINT
+INPUT " Player 6 what country do you want to be"; PLAY6$
+IF PLAY6$ = "ITALY" THEN GOTO 7
+IF PLAY6$ = "FRANCE" THEN GOTO 7
+IF PLAY6$ = "ENGLAND" THEN GOTO 7
+IF PLAY6$ = "GERMANY" THEN GOTO 7
+IF PLAY6$ = "RUSSIA" THEN GOTO 7
+IF PLAY6$ = "TURKEY" THEN GOTO 7
+IF PLAY6$ = "AUSTRIA-HUNGARY" THEN GOTO 7
+GOTO 6
+7 IF PLAY6$ = play1$ THEN GOTO 6
+IF PLAY6$ = PLAY2$ THEN GOTO 6
+IF PLAY6$ = PLAY3$ THEN GOTO 6
+IF PLAY6$ = PLAY4$ THEN GOTO 6
+IF PLAY6$ = PLAY5$ THEN GOTO 6
+8 IF AI = 5 THEN GOTO 10
+PRINT
+INPUT "Player 7 what country do you want to be"; PLAY7$
+IF PLAY7$ = "ITALY" THEN GOTO 9
+IF PLAY7$ = "FRANCE" THEN GOTO 9
+IF PLAY7$ = "ENGLAND" THEN GOTO 9
+IF PLAY7$ = "GERMANY" THEN GOTO 9
+IF PLAY7$ = "RUSSIA" THEN GOTO 9
+IF PLAY7$ = "TURKEY" THEN GOTO 9
+IF PLAY7$ = "AUSTRIA-HUNGARY" THEN GOTO 9
+GOTO 8
+9 IF PLAY7$ = play1$ THEN GOTO 8
+IF PLAY7$ = PLAY2$ THEN GOTO 8
+IF PLAY7$ = PLAY3$ THEN GOTO 8
+IF PLAY7$ = PLAY4$ THEN GOTO 8
+IF PLAY7$ = PLAY5$ THEN GOTO 8
+IF PLAY7$ = PLAY6$ THEN GOTO 8
+10 IF AI = 0 THEN AIP = 6
+IF AI = 1 THEN AIP = 5
+IF AI = 2 THEN AIP = 4
+IF AI = 3 THEN AIP = 3
+IF AI = 4 THEN AIP = 2
+IF AI = 5 THEN AIP = 1
+IF AI = 6 THEN AIP = 0
+11 IF AIP = 0 THEN GOTO 18
+12 RANDOMIZE TIMER
+LET AIC% = INT(RND * 6)
+IF AIC% = 6 THEN PLAY7$ = "RUSSIA"
+IF AIC% = 5 THEN PLAY7$ = "ENGLAND"
+IF AIC% = 4 THEN PLAY7$ = "FRANCE"
+IF AIC% = 3 THEN PLAY7$ = "ITALY"
+IF AIC% = 2 THEN PLAY7$ = "AUSTRIA-HUNGARY"
+IF AIC% = 1 THEN PLAY7$ = "TURKEY"
+IF AIC% = 0 THEN PLAY7$ = "GERMANY"
+IF PLAY7$ = play1$ THEN GOTO 12
+IF PLAY7$ = PLAY2$ THEN GOTO 12
+IF PLAY7$ = PLAY3$ THEN GOTO 12
+IF PLAY7$ = PLAY4$ THEN GOTO 12
+IF PLAY7$ = PLAY5$ THEN GOTO 12
+IF PLAY7$ = PLAY6$ THEN GOTO 12
+IF AIP = 1 THEN GOTO 18
+13 RANDOMIZE TIMER
+LET AIC% = INT(RND * 6)
+IF AIC% = 6 THEN PLAY6$ = "RUSSIA"
+IF AIC% = 5 THEN PLAY6$ = "ENGLAND"
+IF AIC% = 4 THEN PLAY6$ = "FRANCE"
+IF AIC% = 3 THEN PLAY6$ = "ITALY"
+IF AIC% = 2 THEN PLAY6$ = "AUSTRIA-HUNGARY"
+IF AIC% = 1 THEN PLAY6$ = "TURKEY"
+IF AIC% = 0 THEN PLAY6$ = "GERMANY"
+IF PLAY6$ = play1$ THEN GOTO 13
+IF PLAY6$ = PLAY2$ THEN GOTO 13
+IF PLAY6$ = PLAY3$ THEN GOTO 13
+IF PLAY6$ = PLAY4$ THEN GOTO 13
+IF PLAY6$ = PLAY5$ THEN GOTO 13
+IF PLAY6$ = PLAY7$ THEN GOTO 13
+IF AIP = 3 THEN GOTO 18
+14 RANDOMIZE TIMER
+LET AIC% = INT(RND * 6)
+IF AIC% = 6 THEN PLAY5$ = "RUSSIA"
+IF AIC% = 5 THEN PLAY5$ = "ENGLAND"
+IF AIC% = 4 THEN PLAY5$ = "FRANCE"
+IF AIC% = 3 THEN PLAY5$ = "ITALY"
+IF AIC% = 2 THEN PLAY5$ = "AUSTRIA-HUNGARY"
+IF AIC% = 1 THEN PLAY5$ = "TURKEY"
+IF AIC% = 0 THEN PLAY5$ = "GERMANY"
+IF PLAY5$ = play1$ THEN GOTO 14
+IF PLAY5$ = PLAY2$ THEN GOTO 14
+IF PLAY5$ = PLAY3$ THEN GOTO 14
+IF PLAY5$ = PLAY4$ THEN GOTO 14
+IF PLAY5$ = PLAY6$ THEN GOTO 14
+IF PLAY5$ = PLAY7$ THEN GOTO 14
+IF AIP = 4 THEN GOTO 18
+15 RANDOMIZE TIMER
+LET AIC% = INT(RND * 6)
+IF AIC% = 6 THEN PLAY4$ = "RUSSIA"
+IF AIC% = 5 THEN PLAY4$ = "ENGLAND"
+IF AIC% = 4 THEN PLAY4$ = "FRANCE"
+IF AIC% = 3 THEN PLAY4$ = "ITALY"
+IF AIC% = 2 THEN PLAY4$ = "AUSTRIA-HUNGARY"
+IF AIC% = 1 THEN PLAY4$ = "TURKEY"
+IF AIC% = 0 THEN PLAY4$ = "GERMANY"
+IF PLAY4$ = play1$ THEN GOTO 15
+IF PLAY4$ = PLAY2$ THEN GOTO 15
+IF PLAY4$ = PLAY3$ THEN GOTO 15
+IF PLAY4$ = PLAY5$ THEN GOTO 15
+IF PLAY4$ = PLAY6$ THEN GOTO 15
+IF PLAY4$ = PLAY7$ THEN GOTO 15
+IF AIP = 5 THEN GOTO 18
+16 RANDOMIZE TIMER
+LET AIC% = INT(RND * 6)
+IF AIC% = 6 THEN PLAY3$ = "RUSSIA"
+IF AIC% = 5 THEN PLAY3$ = "ENGLAND"
+IF AIC% = 4 THEN PLAY3$ = "FRANCE"
+IF AIC% = 3 THEN PLAY3$ = "ITALY"
+IF AIC% = 2 THEN PLAY3$ = "AUSTRIA-HUNGARY"
+IF AIC% = 1 THEN PLAY3$ = "TURKEY"
+IF AIC% = 0 THEN PLAY3$ = "GERMANY"
+IF PLAY3$ = play1$ THEN GOTO 16
+IF PLAY3$ = PLAY2$ THEN GOTO 16
+IF PLAY3$ = PLAY4$ THEN GOTO 16
+IF PLAY3$ = PLAY5$ THEN GOTO 16
+IF PLAY3$ = PLAY6$ THEN GOTO 16
+IF PLAY3$ = PLAY7$ THEN GOTO 16
+IF AIP = 6 THEN GOTO 18
+17 RANDOMIZE TIMER
+LET AIC% = INT(RND * 6)
+IF AIC% = 6 THEN PLAY2$ = "RUSSIA"
+IF AIC% = 5 THEN PLAY2$ = "ENGLAND"
+IF AIC% = 4 THEN PLAY2$ = "FRANCE"
+IF AIC% = 3 THEN PLAY2$ = "ITALY"
+IF AIC% = 2 THEN PLAY2$ = "AUSTRIA-HUNGARY"
+IF AIC% = 1 THEN PLAY2$ = "TURKEY"
+IF AIC% = 0 THEN PLAY2$ = "GERMANY"
+IF PLAY2$ = play1$ THEN GOTO 17
+IF PLAY2$ = PLAY3$ THEN GOTO 17
+IF PLAY2$ = PLAY4$ THEN GOTO 17
+IF PLAY2$ = PLAY5$ THEN GOTO 17
+IF PLAY2$ = PLAY6$ THEN GOTO 17
+IF PLAY2$ = PLAY7$ THEN GOTO 17
+
+18 CLS
+date = 1900
+date = date + 1
+PRINT "                                 "; CHR$(17); " Spring"; date; CHR$(16)
+PRINT ""; CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219); CHR$(219);
+PRINT ""; CHR$(219); "                                        "; CHR$(219); "                                     "; CHR$(219)
+PRINT ""; CHR$(219); "               Location                 "; CHR$(219); "              Your Location          "; CHR$(219)
+PRINT ""; CHR$(219);
+
